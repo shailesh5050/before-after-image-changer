@@ -6,6 +6,7 @@ const after = document.querySelector(".after-img-container");
 let slideMoves =(e)=>{
     let xPos = e.layerX;
     before.style.width = xPos + "px";
+    slider.style.left = xPos + "px";
 }
 
 container.addEventListener("mousemove",(e)=>{
